@@ -1,0 +1,82 @@
+<DOCTYPE html>
+  <html>
+    <head>
+      <link href="style.css" type="text/css" rel="stylesheet">
+<!-- creating agrid style for the tabs !-->
+      <style>
+        .grid {
+          display: grid;
+          grid-template-columns: 30px 30px 30px 30px;
+          width: 30px;
+          height: 30px;
+          grid-column-gap: 75px;
+          grid-row-gap: 15px;
+          padding-right: 90%;
+          padding-bottom: 60%;
+
+        }
+        .one {
+          background-color: white;
+          padding: 40px;
+        }
+
+
+      </style>
+    </head>
+<!-- top nav-bars for google page !-->
+    <body>
+      <ul id="nav-bar">
+        <li><a href="#" class="nav-bar-opacity">Gmail</a></li>
+        <li><a href="#" class="nav-bar-opacity">Images</a></li>
+        <li><a href="#"><div id="menu-icon" class="nav-bar-opacity"></div></a></li>
+        <li><button id="sign-in"><a href="#" id="sign-in-text">Sign in</a></button></li>
+        <li><button><img src="notification.PNG" ></button></li>
+        <li><button ><img src="photo.PNG"></button> </li>
+      </ul>
+
+      <div class="main-content">
+        <div id="logo">
+          <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        </div>
+        <div id="search-bar">
+          <input type="text" name="search">
+          <a href="#" id="speech-link"><img src="https://lh5.googleusercontent.com/OorCLDb2xlVQ4P2MDNCiwAnpv0K1ZrcDwEwRS3sOfDMrnYTnVPvCh7WtFQMbZ_S9u_jzcSLd8g=s128-h128-e365" alt="Speech icon"></a>
+        </div>
+        <div class="buttons">
+          <button name="Google-Search"><p>Google Search</p></button>
+          <button name="Feeling-Lucky"><p>I'm Feeling Lucky</p></button>
+        </div>
+
+          <!-- inserting tabs image with appropriate size !-->
+          <div class="grid" >
+
+            <div class="one"><a href="https://outlook.office.com/mail/inbox" target="new"><img src="outlook.png" style="height: 50px; width: 50px" ></a></div>
+            <div class="one"><a href="https://www.google.com/" target="new"><img src="google.jpg" style="height: 50px; width: 50px"></a> </div>
+            <div class="one"><a href="https://mail.google.com/mail/u/0/" target="new"><img src="gmail.png" style="height: 50px; width: 50px"> </a></div>
+            <div class="one"><a href="https://www.amazon.com/ref=nav_logo" target="new"><img src="amazon.png" style="height: 50px; width: 50px"></a></div>
+            <div class="one"><a href="https://www.instagram.com/" target="new"><img src="instagram.png" style="height: 50px; width: 50px"></a></div>
+            <div class="one"><a href="https://online.umkc.edu/canvas-tip-notification-preferences/" target="new"><img src="canvas.png" style="height: 50px; width: 50px"></a></div>
+            <div class="one"><a href="https://www.w3schools.com/html/html_images.asp" target="new"><img src="w3schools.png" style="height: 50px; width: 50px"></a></div>
+            <div class="one"><a href="https://web.whatsapp.com/" target="new"><img src="whatsapp.png" style="height: 50px; width: 50px"></a></div>
+
+          </div>
+      </div>
+
+    </body>
+
+   <footer>
+      <div class="bottom-nav">
+        <ul class="ul-left">
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <ul class="ul-right">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+
+        </ul>
+      </div>
+    </footer>
+  </html>
