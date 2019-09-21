@@ -1,0 +1,24 @@
+<body style="background-color: black;">
+<div class="todos" style="background-color: aqua">
+
+  <div >
+    <h1><p>To-Do List</p></h1>
+    <form (submit)="addTodo($event)">
+      <input name="newTodo" [(ngModel)]="newTodo" (keyup.enter)="newTodo=''" class="textfield">
+      <button  type="submit" [disabled]="newTodo===''">Add Todo</button>
+    </form>
+  </div>
+  <div [hidden]="newTodo">
+    <h1>Enter your todo list</h1>
+  </div>
+
+  <ol >
+    <li *ngFor="let todo of todos; let i=index" style="margin: auto auto; margin">
+      <span  style="font-size: 30px; color: navy " [ngClass]="{'checked': todo.completed}">{{ todo.newTodo }}</span>
+      <span (click)="deleteTodo(i)" class="delete-icon"><button>Done</button></span>
+    </li>
+  </ol>
+
+</div>
+<body>
+
