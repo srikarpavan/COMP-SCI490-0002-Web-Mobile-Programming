@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "986343147154",
+    "firebase_url": "https://fir-icp.firebaseio.com",
+    "project_id": "fir-icp",
+    "storage_bucket": "fir-icp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986343147154:android:9e6c51fb8b0cf567fb484b",
+        "android_client_info": {
+          "package_name": "com.vijaya.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986343147154-e19fa5lfnvkqs4kc596r88olgau0mgft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA15BfblsX2U4sQ2FTRkXgYRRtOBlXRaBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986343147154-e19fa5lfnvkqs4kc596r88olgau0mgft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
